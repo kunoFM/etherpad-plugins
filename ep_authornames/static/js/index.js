@@ -20,7 +20,7 @@ exports.acePostWriteDomLineHTML = function(hook_name, args, cb){
 		if (authorObj) {
 		  return authorObj.name;
 		} else {
-		  return "unknown author: " + authorId;
+		  return "N.N.";
 		}
 	};
 	
